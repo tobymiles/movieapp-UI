@@ -1,0 +1,23 @@
+body {
+  background-color: #000;
+}
+
+li:first-child {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: none;
+}
+
+.moviessearch {
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 5px;
+  position: relative;
+  left: 500px;
+  top: 60px;
+}

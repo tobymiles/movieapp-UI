@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #fff;
+  overflow: hidden;
+}
+
+h2 {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.movieEmail {
+  position: absolute;
+  left: 450px;
+  top: 180px;
+}
+
+.movieEmail input {
+  padding: 5px;
+  width: 400px;
+  height: 35px;
+  display: block;
+}
+
+.passwordSection {
+  position: absolute;
+  left: 450px;
+  top: 260px;
+}
+
+.passwordSection input {
+  width: 400px;
+  height: 35px;
+  display: block;
+}
+
+#btnLogin {
+  position: absolute;
+  left: 450px;
+  top: 350px;
+  width: 400px;
+  display: block;
+  background-color: #a90909;
+  color: #fff;
+}

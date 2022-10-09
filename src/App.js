@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Nav from "./layout/Nav";
+import Home from "./pages/Home";
+import Errorpage from "./pages/Errorpage";
+import Allmovies from "./pages/Allmovies";
+import CreateMovie from "./pages/Createmovie";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/allmovies' element={<Allmovies />} />
+        <Route path='/createmovie' element={<CreateMovie />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
+        <Route path='*' element={<Errorpage />} />
+      </Routes>
     </div>
   );
 }

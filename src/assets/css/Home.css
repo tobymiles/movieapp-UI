@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Herotext {
+  position: relative;
+  height: 339px;
+  width: 471px;
+  left: 54px;
+  top: 150px;
+  border-radius: 0px;
+}
+
+.Playicon {
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  position: relative;
+  top: 4px;
+  left: 10px;
+}
+
+.blob2 {
+  background: rgba(217, 217, 217, 0.087);
+  border-radius: 50%;
+  /* margin: 10px; */
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  /* right: 42%; */
+  top: 10px;
+
+  box-shadow: 0 0 0 0 rgb(189, 189, 189);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(235, 235, 235, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(206, 206, 206, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
