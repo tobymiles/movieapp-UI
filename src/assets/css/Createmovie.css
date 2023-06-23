@@ -10,7 +10,7 @@ body {
 }
 
 .create-movie{
-  height: auto;
+  height: 100vh;
 }
 
 h2 {
