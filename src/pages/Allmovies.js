@@ -13,6 +13,7 @@ function Allmovies() {
       </div>
 
       <Movie />
+      <Movie />
     </div>
   );
 }
