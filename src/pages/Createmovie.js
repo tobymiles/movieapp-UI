@@ -31,7 +31,7 @@ function Createmovie() {
   };
 
   return (
-    <>
+    <div className="create-movie">
       <h2>CREATE A MOVIE</h2>
       <form onSubmit={handleData}>
         <div className='movieName'>
@@ -130,7 +130,7 @@ function Createmovie() {
           Submit
         </button>
       </form>
-    </>
+    </div>
   );
 }
 

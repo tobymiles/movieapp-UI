@@ -32,4 +32,8 @@ function Singlemovie() {
   );
 }
 
+const check = ()=>{
+  console.log(data);
+}
+
 export default Singlemovie;
